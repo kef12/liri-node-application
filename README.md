@@ -23,7 +23,7 @@ Using the command line, LIRI will search Spotify for songs, Bands in Town for co
   * Here is a screenshot that illustrates the command. 
    * ![COMMANDS](images/liri-commands.png)
   * Here is a screenshot that illustrates the default.
-   * ![DEFAULT](images/liri-default.png)
+   * ![DEFAULT](images/liri-defaults.png)
 
 3. Movie-This --- node liri.js movie-this <'movie name here'>
   * This will search the OMDB API for a movie and render the following information to the terminal:
@@ -39,7 +39,7 @@ Using the command line, LIRI will search Spotify for songs, Bands in Town for co
   * Here is a screenshot that illustrates the command. 
    * ![COMMANDS](images/liri-commands.png)
   * Here is a screenshot that illustrates the default.
-   * ![DEFAULT](images/liri-default.png)
+   * ![DEFAULT](images/liri-defaults.png)
 
 4. Do-What-It-Says --- node liri.js do-what-it-says
   * Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. (View screenshot).
