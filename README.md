@@ -10,7 +10,7 @@ Using the command line, LIRI will search Spotify for songs, Bands in Town for co
     * Name of the venue
     * Venue location
     * Date of the event
-  ![COMMANDS] (Images/liri-commands.png)
+  * ![COMMANDS] (images/liri-commands.png)
 
 2. Spotify-This-Song --- node liri.js spotify-this-song <'song name here'>
   * This will search the Spotify API and return the following information in terminal: (View screenshot).
