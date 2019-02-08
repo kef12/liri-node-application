@@ -39,8 +39,6 @@ switch (command) {
 
         if (Artist == null) {
 
-            var text = (command + " :: " + Artist + "\n" + "I'm sorry nobody is playing in your neighborhood, please try your search again...");
-
             console.log("I'm sorry nobody is playing in your neighborhood, please try your search again...");
 
         } else {
@@ -65,8 +63,6 @@ switch (command) {
                             console.log(error.response.data);
 
                             console.log(error.response.status);
-
-                            console.log(error.response.headers);
 
                         } else if (error.request) {
 
@@ -189,7 +185,6 @@ switch (command) {
 
                         console.log(error.resp.data);
                         console.log(error.resp.status);
-                        console.log(error.resp.headers);
 
                     } else if (error.request) {
 
@@ -223,7 +218,6 @@ switch (command) {
 
                         console.log(error.resp.data);
                         console.log(error.resp.status);
-                        console.log(error.resp.headers);
 
                     } else if (error.request) {
 
