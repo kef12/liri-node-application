@@ -47,36 +47,15 @@ switch (command) {
 
                 .then(function (response) {
 
-                        console.log(Artist + " is playing at the...");
+                    console.log(Artist + " is playing at the...");
 
-                        console.log("Name of the venue: " + response.data[0].venue.name);
+                    console.log("Name of the venue: " + response.data[0].venue.name);
 
-                        console.log("Location: " + response.data[0].venue.city);
+                    console.log("Location: " + response.data[0].venue.city);
 
-                        console.log("Date of event: " + moment(response.data[0].datetime).format("MM/DD/YYYY"));
+                    console.log("Date of event: " + moment(response.data[0].datetime).format("MM/DD/YYYY"));
 
-                    },
-                    function (error) {
-
-                        if (error.response) {
-
-                            console.log(error.response.data);
-
-                            console.log(error.response.status);
-
-                        } else if (error.request) {
-
-                            console.log(error.request);
-
-                        } else {
-
-                            console.log('Error', error.message);
-
-                        }
-
-                        console.log(error.config);
-                    }
-                )
+                }, )
         }
 
         break;
@@ -178,23 +157,6 @@ switch (command) {
                     console.log("Language of the Movie: " + resp.data.Language);
                     console.log("Movie Plot: " + resp.data.Plot);
                     console.log("Movie Actors: " + resp.data.Actors);
-
-                }, function (error) {
-
-                    if (error.resp) {
-
-                        console.log(error.resp.data);
-                        console.log(error.resp.status);
-
-                    } else if (error.request) {
-
-                        console.log(error.request);
-
-                    } else {
-
-                        console.log('Error', error.message);
-                    }
-                    console.log(error.config);
                 })
 
         } else {
@@ -212,24 +174,6 @@ switch (command) {
                     console.log("Movie Plot: " + resp.data.Plot);
                     console.log("Movie Actors: " + resp.data.Actors);
 
-                }, function (error) {
-
-                    if (error.resp) {
-
-                        console.log(error.resp.data);
-                        console.log(error.resp.status);
-
-                    } else if (error.request) {
-
-                        console.log(error.request);
-
-                    } else {
-
-                        console.log('Error', error.message);
-
-                    }
-
-                    console.log(error.config);
                 })
         }
 
